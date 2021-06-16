@@ -1,10 +1,12 @@
 import * as React from 'react';
-import { Link, RouteComponentProps } from 'react-router-dom';
+import './Main.css';
 
 const Main = () => {
-  return (
-    <div>
-      <h2>Eu estou na página principal!</h2>
+  return (    
+    <div className="backg-main">
+      <br /><br /><br /><br />
+      <p>Eu estou na página principal!</p>
+      
     </div>
   );
 };

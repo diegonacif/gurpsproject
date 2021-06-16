@@ -5,7 +5,7 @@ import * as ImgSrc from '../../images'
 
 const Books = () => {
   return (
-    <div>
+    <div className="backg-books">
       <h1>Livros</h1>
       <div className="main">
         <div className="row">
