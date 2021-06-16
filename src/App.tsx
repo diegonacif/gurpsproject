@@ -1,4 +1,3 @@
-import Router from './Router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootstrap from 'react-bootstrap';
 import './App.css';
@@ -6,7 +5,6 @@ import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 import Books from './pages/books/Books';
 import Tools from './pages/tools/Tools';
 import Main from './pages/Main/Main';
-import {Container} from '@material-ui/core';
 
 function App() {
   return (
