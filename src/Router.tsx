@@ -1,9 +1,7 @@
-import * as React from 'react';
-import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom'
-
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Books from './pages/books/Books';
 import Tools from './pages/tools/Tools';
-import Main from './App';
+import Main from './pages/Main/Main';
 
 const Router = () => {
   return (
