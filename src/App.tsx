@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {BrowserRouter} from 'react-router-dom';
-import Router from './Router'
 import Navbarra from './pages/navbar'
+import Router from './Router'
 
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">      
         <BrowserRouter>
-          <Navbarra />         
-          <Router />          
-        </BrowserRouter>
+        <Router />
+        <Navbarra />
+        </BrowserRouter>     
       </header>
     </div>
   );
